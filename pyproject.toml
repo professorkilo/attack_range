@@ -36,7 +36,7 @@ name = "pypi-public"
 url = "https://pypi.org/simple/"
 
 [tool.poetry.dev-dependencies]
-pytest = "^8.0"
+pytest = "^9.2"
 moto = {version = "^5.0", extras = ["s3"]}
 
 [tool.pytest.ini_options]
